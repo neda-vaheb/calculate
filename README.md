@@ -1,2 +1,2 @@
-# calculate
-calculate
+# calculator
+calculator
