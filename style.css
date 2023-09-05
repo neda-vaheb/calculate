@@ -16,12 +16,14 @@ body{
     margin: 100px auto;
 }
 .key{
+    font-size: 1.5rem;
     width: 90px;
     height: 90px;
     margin: 5px;
     text-align: center;
     line-height: 90px;
     border-radius: 90px;
+    background-color: #55535330;
 
 }
 .display{
@@ -29,3 +31,21 @@ body{
     margin: 20px;
     text-align: right;
 }
+.key-table tr:first-child .key{
+    background-color: #a5a5a5;
+    
+}
+.key-table tr:first-child .key:active{
+    background-color: #a5a5a590;
+    
+}
+.key-table tr td:last-child .key {
+    background-color: #ffa45c;
+}
+.keypad-table tr td:last-child .key:active{
+    background-color: #ffa45ccc;
+    }
+.key:active{
+   background-color: #33333390;
+    }
+
